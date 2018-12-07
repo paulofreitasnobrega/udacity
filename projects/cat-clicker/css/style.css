@@ -1,0 +1,50 @@
+body {
+    color: white;
+    font-family: Arial;
+    padding: 2em;
+    background: #6c5b7b;
+}
+
+/* ==== Header ==== */
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+/* ==== Cat List ==== */
+
+#cat-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+#cat-list li {
+    display: block;
+    cursor: pointer;
+    padding: 0.3em 0;
+    border-bottom: 0.1em solid white;
+}
+
+/* ==== Cat Info ==== */
+
+#cat-container img {
+    width: 100%;
+    cursor: pointer;
+    border: 0.2em solid white;
+}
+
+#cat-container img:hover {
+    box-shadow: 0.2em 0.2em 0.4em #666;
+}
+
+#cat-name {
+    margin: 0 0 0.5em 0;
+}
